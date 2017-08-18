@@ -4,7 +4,7 @@ Takes a question with two operands as input and predicts the operation between t
 
 ## Getting Started
 
-python3 model.py data/train_LSTM_26112016 data/test_LSTM_26112016
+python3 model.py DATA/train_LSTM_26112016 DATA/test_LSTM_26112016
 
 ### Prerequisites
 
