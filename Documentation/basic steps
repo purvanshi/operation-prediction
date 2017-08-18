@@ -1,0 +1,22 @@
+'''
+Joan found 70 seashells on the beach . she gave Sam some of her seashells . She has 27 seashell . How many seashells did she give to Sam ? 
+
+story - Joan found 70 seashells on the beach . she gave Sam some of her seashells . She has 27 seashell .
+query - How many seashells did she give to Sam ? 
+'''
+parse_stories , get_stories -- reading the data and converting into the form (story, query, answer)
+
+vectorize_story -- converting the story and query of each qquestion into vectors after apdding them
+
+chunk_question -- removing the query part from the question
+
+find_answer -- applies the predicted operation to the numbers
+
+
+Steps:
+1) Reading of data and changing into story,query,answer
+2) Generating a vocabulary of the number of operations and words
+3) finding maximum length of the story and the query
+4) Creating a word_idx from our vocabulary (giving every word a number)
+5) Vectorizing the story and the query
+6) passing in the model and getting results :)
