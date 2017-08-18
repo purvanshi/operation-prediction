@@ -1,0 +1,2 @@
+1 After buying some pencils for $num1, Earl has $num3 left.
+2 How much money did Earl have to begin with ?	num1 num3 +	1
