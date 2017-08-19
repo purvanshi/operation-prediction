@@ -100,7 +100,7 @@ def serialising():
 
 
 
-RNN = recurrent.LSTM
+RNN = recurrent.GRU
 EMBED_HIDDEN_SIZE = 50
 SENT_HIDDEN_SIZE = 100
 QUERY_HIDDEN_SIZE = 100
