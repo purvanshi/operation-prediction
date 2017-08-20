@@ -71,6 +71,8 @@ def vectorize_stories(data, word_idx, word_idx_answer, story_maxlen, query_maxle
     X = []
     Xq = []
     Y = []
+    print("length of data")
+    print(len(data))
     for story, query, answer in data:
         x = [word_idx[w] for w in story]
         xq = [word_idx[w] for w in query]
@@ -138,6 +140,9 @@ tX, tXq, tY = vectorize_stories(test, word_idx, word_idx_answer, story_maxlen, q
 print('X.shape = {}'.format(X.shape))
 print('Xq.shape = {}'.format(Xq.shape))
 print('Y.shape = {}'.format(Y.shape))
+print('tX.shape = {}'.format(tX.shape))
+print('tXq.shape = {}'.format(tXq.shape))
+print('tY.shape = {}'.format(tY.shape))
 print('story_maxlen, query_maxlen = {}, {}'.format(story_maxlen, query_maxlen))
 
 print('Build model...')
