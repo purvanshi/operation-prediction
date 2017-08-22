@@ -81,6 +81,10 @@ def vectorize_stories(data, word_idx, word_idx_answer, story_maxlen, query_maxle
     X = []
     Xq = []
     Y = []
+    add=0
+    sub=0
+    mul=0
+    div=0
     for story, query, answer in data:
         x = [word_idx[w] for w in story]
         xq = [word_idx[w] for w in query]
@@ -88,9 +92,25 @@ def vectorize_stories(data, word_idx, word_idx_answer, story_maxlen, query_maxle
         for item in answer.split():
             if re.search('\+|\-|\*|/', item):
                 y[word_idx_answer[item]] = 1
+            for i in item:
+                if '+' in i:
+                    add=add+1
+                elif '-' in i:
+                    sub=sub+1
+                elif '*'in i:
+                    mul=mul+1
+                elif '/' in i:
+                    div=div+1
+                else:
+                    print("hey")
+                    print(i)
         X.append(x)
         Xq.append(xq)
         Y.append(y)
+    print("add"+str(add))
+    print("sadd"+str(sub))
+    print("madd"+str(mul))
+    print("d"+str(div))
     return pad_sequences(X, maxlen=story_maxlen), pad_sequences(Xq, maxlen=query_maxlen), np.array(Y)
 
 def vectorize(story,query,word_idx,word_idx_answer,story_maxlen, query_maxlen):
@@ -213,21 +233,22 @@ def main_func(input_question):
     model.add(Dropout(0.3))
     model.add(Dense(vocab_answer_size, activation='softmax'))
 
-    json_file = open('model.json', 'r')
-    loaded_model_json = json_file.read()
-    json_file.close()
-    loaded_model = model_from_json(loaded_model_json)
-    loaded_model.load_weights("model.h5")
-    print("Loaded model from disk")
-    loaded_model.compile(optimizer='adam',
+    model.compile(optimizer='adam',
                   loss='categorical_crossentropy',
                   metrics=['accuracy'])
+    print('Training')
+
+    model.fit([X, Xq], Y, batch_size=BATCH_SIZE,
+          nb_epoch=EPOCHS, validation_split=0.05)
+    
     goldLabels = list()
     predictedLabels = list()
-    for pr in loaded_model.predict([xp, xqp]):
+    for pr in model.predict([xp, xqp]):
         predictedLabels.append(word_idx_operator_reverse[np.argsort(pr)[-1]])
     print(predictedLabels)
     numlist=list(int(s) for s in question.split() if s.isdigit())
     answer=find_answer(predictedLabels[0],numlist)
     print(answer)
     return answer
+
+main_func("Joan found 70 seashells on the beach . she gave Sam some of her seashells . She has 27 seashell . How many seashells did she give to Sam ?")
