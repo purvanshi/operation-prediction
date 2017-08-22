@@ -2,13 +2,28 @@
 
 Takes a question with two operands as input and predicts the operation between them.
 
-## Getting Started
-
-python3 model.py DATA/train_LSTM_26112016 DATA/test_LSTM_26112016
 
 ### Prerequisites
 
 pip install -r requirements.txt
+
+## Getting Started
+
+1) Testing on our data 
+
+python3 model.py DATA/train_LSTM_26112016 DATA/test_LSTM_26112016
+
+2) ### Web
+run
+python3 model1.py
+
+The function main_function returns the answer
+
+API code is in main.py
+
+3) Testing on ARIS
+
+python3 test_aris.py
 
 
 ## Testing
