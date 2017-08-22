@@ -151,7 +151,7 @@ def main_func(input_question):
     SENT_HIDDEN_SIZE = 100
     QUERY_HIDDEN_SIZE = 100
     BATCH_SIZE = 32
-    EPOCHS = 1
+    EPOCHS = 40
     print('RNN / Embed / Sent / Query = {}, {}, {}, {}'.format(RNN,
                                                                EMBED_HIDDEN_SIZE, SENT_HIDDEN_SIZE, QUERY_HIDDEN_SIZE))
     train = get_stories(open("DATA/train_LSTM_26112016", 'r',encoding='utf-8'))
