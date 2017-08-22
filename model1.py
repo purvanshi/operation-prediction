@@ -81,14 +81,16 @@ def vectorize_stories(data, word_idx, word_idx_answer, story_maxlen, query_maxle
     X = []
     Xq = []
     Y = []
-    add=0
-    sub=0
-    mul=0
-    div=0
+    print("length of data")
+    print(len(data))
     for story, query, answer in data:
         x = [word_idx[w] for w in story]
         xq = [word_idx[w] for w in query]
+        # let's not forget that index 0 is reserved
         y = np.zeros(len(word_idx_answer))
+        for item in answer.split():
+            if re.search('\+|\-|\*|/', item):
+                y[word_idx_answer[item]] = 1
         X.append(x)
         Xq.append(xq)
         Y.append(y)
