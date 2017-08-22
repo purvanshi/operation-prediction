@@ -175,15 +175,16 @@ model.compile(optimizer='adam',
 
 model.fit([X, Xq], Y, batch_size=BATCH_SIZE,
           nb_epoch=EPOCHS, validation_split=0.05)
-
 model.save('my_model.h5')
 del model
-model = load_model('my_model.h5')
+load_model = load_model('my_model.h5')
+# load_model = model
 
-loss, acc = model.evaluate([tX, tXq], tY, batch_size=BATCH_SIZE)
+
+loss, acc = load_model.evaluate([tX, tXq], tY, batch_size=BATCH_SIZE)
 print("Testing")
 print('Test loss / test accuracy = {:.4f} / {:.4f}'.format(loss, acc))
-loss, acc = model.evaluate([X, Xq], Y, batch_size=BATCH_SIZE)
+loss, acc = load_model.evaluate([X, Xq], Y, batch_size=BATCH_SIZE)
 print("Training evaluation")
 print('Test loss / test accuracy = {:.4f} / {:.4f}'.format(loss, acc))
 goldLabels = list()

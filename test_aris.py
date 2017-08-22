@@ -14,11 +14,13 @@ import h5py
 from nltk.tokenize import sent_tokenize
 from nltk.tokenize import word_tokenize
 import json
-
+from keras.models import load_model
+import spacy
 
 np.random.seed(1337)  # for reproducibility
 
 # from keras.utils.data_utils import get_file
+nlp = spacy.load('en')
 
 
 def tokenize(sent):
@@ -97,12 +99,11 @@ def vectorize_stories(data, word_idx, word_idx_answer, story_maxlen, query_maxle
 def vectorize(story,query,word_idx,word_idx_answer,story_maxlen, query_maxlen):
     X=[]
     XQ=[]
-    XQ.append(xq)
     for i in story:
-        x = [word_idx[w] for w in story]
+        x = [word_idx[w] for w in i.split()]
         X.append(x)
     for j in query:
-        xq = [word_idx[w] for w in query]
+        xq = [word_idx[w] for w in j.split()]
         XQ.append(xq)    
     a=pad_sequences(X,maxlen=story_maxlen)
     b=pad_sequences(XQ,maxlen=query_maxlen)
@@ -132,8 +133,8 @@ def chunck_question(question):
     return list_q,query
 
 def find_answer(operation,numlist):
-    num1=numlist[0]
-    num2=numlist[1]
+    num1=int(numlist[0])
+    num2=int(numlist[1])
     if operation=='+':
         return num1+num2
     elif operation=='-':
@@ -192,14 +193,12 @@ def chunck_question(question):
 list_question,equation=read_data('DATA/addsub.json')
 worldstate,query=chunck_question(list_question)
 
-print("data read")
-
 RNN = recurrent.LSTM
 EMBED_HIDDEN_SIZE = 50
 SENT_HIDDEN_SIZE = 100
 QUERY_HIDDEN_SIZE = 100
 BATCH_SIZE = 32
-EPOCHS = 40
+EPOCHS = 1
 print('RNN / Embed / Sent / Query = {}, {}, {}, {}'.format(RNN,
                                                            EMBED_HIDDEN_SIZE, SENT_HIDDEN_SIZE, QUERY_HIDDEN_SIZE))
 train = get_stories(open("DATA/train_LSTM_26112016", 'r'))
@@ -214,25 +213,30 @@ new_query=[]
 # n_query=list(map(str,new_query))
 vocab = sorted(reduce(lambda x, y: x | y,
                       (set(story + q + [answer]) for story, q, answer in train + test)))
-
 for i in worldstate:
     for j in i.split():
         if j not in vocab:
             vocab.append(j)
 
+print("here2")
+
 for i in query:
-    for j in query:
-        for q in j.split():
-            if q not in vocab: 
-                vocab.append(q)
+    for q in i.split():
+        if q not in vocab: 
+            vocab.append(q)
+
+print("here1")
+
 
 vocab_size = len(vocab) + 1
 vocab_answer_set = set()
-
+print(vocab)
 for story, q, answer in train + test:
     for item in answer.split():
         if re.search('\+|\-|\*|/', item):
             vocab_answer_set.add(item)
+
+print("here")
 
 vocab_answer = list(vocab_answer_set)
 vocab_answer_size = len(vocab_answer)
@@ -276,12 +280,17 @@ print('Training')
 
 model.fit([X, Xq], Y, batch_size=BATCH_SIZE,
       nb_epoch=EPOCHS, validation_split=0.05)
-    
+print(xp.shape)
+print(xqp.shape)
 goldLabels = list()
 predictedLabels = list()
-for pr in model.predict([xp, xqp]):
+z=model.predict([xp, xqp])
+for pr in model.predict([xp, xqp]): 
     predictedLabels.append(word_idx_operator_reverse[np.argsort(pr)[-1]])
 answers=[]
-for i in worldstate:
-    numlist=list(int(s) for s in i.split() if s.isdigit())
-    answer.append(find_answer(predictedLabels[0],numlist))
+for i in list_question:
+    doc=nlp(i)
+    for word in doc:
+        if(word.pos_=="NUM"):
+            numlist.append(word.text)
+    answers.append(find_answer(predictedLabels[0],numlist)) 
