@@ -152,8 +152,8 @@ def main_func(input_question):
     EPOCHS = 1
     print('RNN / Embed / Sent / Query = {}, {}, {}, {}'.format(RNN,
                                                                EMBED_HIDDEN_SIZE, SENT_HIDDEN_SIZE, QUERY_HIDDEN_SIZE))
-    train = get_stories(open("DATA/train_LSTM_26112016", 'r'))
-    test = get_stories(open("DATA/test_LSTM_26112016", 'r'))
+    train = get_stories(open("DATA/train_LSTM_26112016", 'r',encoding='utf-8'))
+    test = get_stories(open("DATA/test_LSTM_26112016", 'r',encoding='utf-8'))
     story,query=chunck_question(question)
     print(story)
     new_story=[]
