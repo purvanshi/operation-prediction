@@ -89,28 +89,9 @@ def vectorize_stories(data, word_idx, word_idx_answer, story_maxlen, query_maxle
         x = [word_idx[w] for w in story]
         xq = [word_idx[w] for w in query]
         y = np.zeros(len(word_idx_answer))
-        for item in answer.split():
-            if re.search('\+|\-|\*|/', item):
-                y[word_idx_answer[item]] = 1
-            for i in item:
-                if '+' in i:
-                    add=add+1
-                elif '-' in i:
-                    sub=sub+1
-                elif '*'in i:
-                    mul=mul+1
-                elif '/' in i:
-                    div=div+1
-                else:
-                    print("hey")
-                    print(i)
         X.append(x)
         Xq.append(xq)
         Y.append(y)
-    print("add"+str(add))
-    print("sadd"+str(sub))
-    print("madd"+str(mul))
-    print("d"+str(div))
     return pad_sequences(X, maxlen=story_maxlen), pad_sequences(Xq, maxlen=query_maxlen), np.array(Y)
 
 def vectorize(story,query,word_idx,word_idx_answer,story_maxlen, query_maxlen):
@@ -140,8 +121,8 @@ def chunck_question(question):
     return list_q,query
 
 def find_answer(operation,numlist):
-    num1=numlist[0]
-    num2=numlist[1]
+    num1=float(numlist[0])
+    num2=float(numlist[1])
     if operation=='+':
         return num1+num2
     elif operation=='-':
@@ -168,7 +149,7 @@ def main_func(input_question):
     SENT_HIDDEN_SIZE = 100
     QUERY_HIDDEN_SIZE = 100
     BATCH_SIZE = 32
-    EPOCHS = 40
+    EPOCHS = 1
     print('RNN / Embed / Sent / Query = {}, {}, {}, {}'.format(RNN,
                                                                EMBED_HIDDEN_SIZE, SENT_HIDDEN_SIZE, QUERY_HIDDEN_SIZE))
     train = get_stories(open("DATA/train_LSTM_26112016", 'r'))
@@ -240,15 +221,20 @@ def main_func(input_question):
 
     model.fit([X, Xq], Y, batch_size=BATCH_SIZE,
           nb_epoch=EPOCHS, validation_split=0.05)
-    
+
+    loss, acc = model.evaluate([tX, tXq], tY, batch_size=BATCH_SIZE)
+    print("Testing")
+    print('Test loss / test accuracy = {:.4f} / {:.4f}'.format(loss, acc))
+
     goldLabels = list()
     predictedLabels = list()
     for pr in model.predict([xp, xqp]):
         predictedLabels.append(word_idx_operator_reverse[np.argsort(pr)[-1]])
     print(predictedLabels)
-    numlist=list(int(s) for s in question.split() if s.isdigit())
+    numlist=[]
+    numlist=list(re.findall(r"[-+]?\d*\.\d+|\d+", input_question))
     answer=find_answer(predictedLabels[0],numlist)
     print(answer)
     return answer
 
-main_func("Joan found 70 seashells on the beach . she gave Sam some of her seashells . She has 27 seashell . How many seashells did she give to Sam ?")
+main_func("Sandy went to the mall to buy clothes . She spent $ 13.99 on shorts , $ 12.14 on a shirt , and $ 7.43 on a jacket . How much money did Sandy spend on clothes ? ")

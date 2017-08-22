@@ -15,12 +15,10 @@ from nltk.tokenize import sent_tokenize
 from nltk.tokenize import word_tokenize
 import json
 from keras.models import load_model
-import spacy
 
 np.random.seed(1337)  # for reproducibility
 
 # from keras.utils.data_utils import get_file
-nlp = spacy.load('en')
 
 
 def tokenize(sent):
@@ -112,7 +110,7 @@ def vectorize(story,query,word_idx,word_idx_answer,story_maxlen, query_maxlen):
 def chunck_question(question):
     '''Takes out question part from the whole question
     '''
-    question_word=["How","When","What","Find","Calculate","how"]
+    question_word=["How","When","What","Find","Calculate","how","what"]
     list_q=[]
     query=[]
     for i in question:
@@ -133,8 +131,8 @@ def chunck_question(question):
     return list_q,query
 
 def find_answer(operation,numlist):
-    num1=int(numlist[0])
-    num2=int(numlist[1])
+    num1=float(numlist[0])
+    num2=float(numlist[1])
     if operation=='+':
         return num1+num2
     elif operation=='-':
@@ -164,6 +162,14 @@ def read_data(file_name):
         equation.append(data[i]['lEquations'])
         solution.append(data[i]['lSolutions'])    
     return list_question,solution
+
+def isfloat(value):
+  try:
+    float(value)
+    return True
+  except:
+    return False
+
 
 def chunck_question(question):
     '''Takes out question part from the whole question
@@ -198,7 +204,7 @@ EMBED_HIDDEN_SIZE = 50
 SENT_HIDDEN_SIZE = 100
 QUERY_HIDDEN_SIZE = 100
 BATCH_SIZE = 32
-EPOCHS = 1
+EPOCHS = 40
 print('RNN / Embed / Sent / Query = {}, {}, {}, {}'.format(RNN,
                                                            EMBED_HIDDEN_SIZE, SENT_HIDDEN_SIZE, QUERY_HIDDEN_SIZE))
 train = get_stories(open("DATA/train_LSTM_26112016", 'r'))
@@ -230,7 +236,6 @@ print("here1")
 
 vocab_size = len(vocab) + 1
 vocab_answer_set = set()
-print(vocab)
 for story, q, answer in train + test:
     for item in answer.split():
         if re.search('\+|\-|\*|/', item):
@@ -259,6 +264,8 @@ sentrnn = Sequential()
 sentrnn.add(Embedding(vocab_size, EMBED_HIDDEN_SIZE,
                       input_length=story_maxlen))
 sentrnn.add(Dropout(0.3))
+sentrnn.add(RNN(EMBED_HIDDEN_SIZE, return_sequences=False))
+sentrnn.add(RepeatVector(story_maxlen))
 
 qrnn = Sequential()
 qrnn.add(Embedding(vocab_size, EMBED_HIDDEN_SIZE,
@@ -273,6 +280,15 @@ model.add(RNN(EMBED_HIDDEN_SIZE, return_sequences=False))
 model.add(Dropout(0.3))
 model.add(Dense(vocab_answer_size, activation='softmax'))
 
+# loaded_model = load_model('my_model.h5')
+
+model.compile(optimizer='adam',
+              loss='categorical_crossentropy',
+              metrics=['accuracy'])
+
+model.fit([X, Xq], Y, batch_size=BATCH_SIZE,
+          nb_epoch=EPOCHS, validation_split=0.05)
+
 model.compile(optimizer='adam',
               loss='categorical_crossentropy',
               metrics=['accuracy'])
@@ -280,8 +296,6 @@ print('Training')
 
 model.fit([X, Xq], Y, batch_size=BATCH_SIZE,
       nb_epoch=EPOCHS, validation_split=0.05)
-print(xp.shape)
-print(xqp.shape)
 goldLabels = list()
 predictedLabels = list()
 z=model.predict([xp, xqp])
@@ -289,8 +303,12 @@ for pr in model.predict([xp, xqp]):
     predictedLabels.append(word_idx_operator_reverse[np.argsort(pr)[-1]])
 answers=[]
 for i in list_question:
-    doc=nlp(i)
-    for word in doc:
-        if(word.pos_=="NUM"):
-            numlist.append(word.text)
-    answers.append(find_answer(predictedLabels[0],numlist)) 
+    numlist=[]
+    numlist=list(re.findall(r"[-+]?\d*\.\d+|\d+", i))
+    answers.append(find_answer(predictedLabels[0],numlist))
+total=0
+for j in range(len(answers)):
+    print(answers[j],equation[j])
+    if(answers[j]==equation[j]):
+        total=total+1
+print(total)
