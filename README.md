@@ -9,8 +9,9 @@ The question is divided into two parts - worldstate and query as shown in Figure
 ![Word Probem](images/word_problem.png?raw=true "Dicision of a question")
 
 The worldstate and the query are processed separately in two different networks and finally the networks
-are merged to predict the final operation. Our system learns to predict operationswith 88.81 % in a corpus of primary school
-questions. 
+are merged to predict the final operation. 
+
+Our system learns to predict operationswith 88.81 % in a corpus of primary school questions. 
 
 
 ### Prerequisites
