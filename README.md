@@ -35,10 +35,6 @@ API code is in main.py
 
 python3 test_aris.py
 
-## Link to edit paper
-
-https://www.overleaf.com/10692455yxqtvmyxpnfj#/40088674/
-
 ## Testing
 
 You can change the input question 
