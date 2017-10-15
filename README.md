@@ -1,12 +1,11 @@
 # Operation-prediction
 
+![Word Probem](images/word_problem.png?raw=true "Dicision of a question")
 Takes a question with two operands as input and predicts the operation between them. This system presents a novel approach to
 solve simple arithmetic word problems.We predict the operation that is to be performed (’-’,’+’,’*’,’/’) through a deep neu-
 ral network model and then use it to generate the answer. 
 
 The question is divided into two parts - worldstate and query as shown in Figure .
-
-![Word Probem](images/word_problem.png?raw=true "Dicision of a question")
 
 The worldstate and the query are processed separately in two different networks and finally the networks
 are merged to predict the final operation. 
@@ -35,6 +34,11 @@ API code is in main.py
 3) Testing on ARIS
 
 python3 test_aris.py
+
+## Results and Comparisions
+
+![Result](images/DifferentModelsAccuracy.png?raw=true "Dicision of a question")
+![Baselines](images/Comparison.png?raw=true "Dicision of a question")
 
 ## Testing
 
