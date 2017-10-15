@@ -1,6 +1,8 @@
 # Operation-prediction
 
 ![Word Probem](images/word_problem.png?raw=true "Dicision of a question")
+
+
 Takes a question with two operands as input and predicts the operation between them. This system presents a novel approach to
 solve simple arithmetic word problems.We predict the operation that is to be performed (’-’,’+’,’*’,’/’) through a deep neu-
 ral network model and then use it to generate the answer. 
