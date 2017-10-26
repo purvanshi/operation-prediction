@@ -13,7 +13,7 @@ import h5py
 import numpy as np
 np.random.seed(1337)  # for reproducibility
 from keras.models import load_model
-
+import pickle as pkl
 # from keras.utils.data_utils import get_file
 
 
@@ -108,7 +108,7 @@ EMBED_HIDDEN_SIZE = 50
 SENT_HIDDEN_SIZE = 100
 QUERY_HIDDEN_SIZE = 100
 BATCH_SIZE = 32
-EPOCHS = 40
+EPOCHS = 4
 print('RNN / Embed / Sent / Query = {}, {}, {}, {}'.format(RNN,
                                                            EMBED_HIDDEN_SIZE, SENT_HIDDEN_SIZE, QUERY_HIDDEN_SIZE))
 
@@ -176,10 +176,7 @@ model.compile(optimizer='adam',
 model.fit([X, Xq], Y, batch_size=BATCH_SIZE,
           nb_epoch=EPOCHS, validation_split=0.05)
 
-model_json = model.to_json()
-with open("my_model.json", "w") as json_file:
-    json_file.write(model_json)
-model.save_weights('my_model.h5')
+model.save('my_model.h5')
 print ("saved model ")
 
 
@@ -187,15 +184,15 @@ del model
 #load_model = load_model('my_model.h5')
 # load_model = model
 
-json_file = open('my_model.json', 'r')
-loaded_model_json = json_file.read()
-json_file.close()
-load_model = model_from_json(loaded_model_json)
 # load weights into new model
-load_model.load_weights("my_model.h5")
+load_model = load_model("my_model.h5")
 
 
 load_model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
+
+pkl.dump(tX,open('tX.pkl','wb'))
+pkl.dump(tXq,open('tXq.pkl','wb'))
+pkl.dump(tY,open('tY.pkl','wb'))
 
 loss, acc = load_model.evaluate([tX, tXq], tY, batch_size=BATCH_SIZE)
 print("Testing")
