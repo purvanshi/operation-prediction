@@ -15,7 +15,7 @@ np.random.seed(1337)  # for reproducibility
 from keras.models import load_model
 import pickle as pkl
 # from keras.utils.data_utils import get_file
-
+from orderedset import OrderedSet
 
 def tokenize(sent):
     '''Return the tokens of a sentence including punctuation.
@@ -108,7 +108,7 @@ EMBED_HIDDEN_SIZE = 50
 SENT_HIDDEN_SIZE = 100
 QUERY_HIDDEN_SIZE = 100
 BATCH_SIZE = 32
-EPOCHS = 4
+EPOCHS = 10
 print('RNN / Embed / Sent / Query = {}, {}, {}, {}'.format(RNN,
                                                            EMBED_HIDDEN_SIZE, SENT_HIDDEN_SIZE, QUERY_HIDDEN_SIZE))
 
@@ -117,10 +117,10 @@ test = get_stories(open(sys.argv[2], 'r'))
 
 
 vocab = sorted(reduce(lambda x, y: x | y,
-                      (set(story + q + [answer]) for story, q, answer in train + test)))
+                      (OrderedSet(story + q + [answer]) for story, q, answer in train + test)))
 # Reserve 0 for masking via pad_sequences
 vocab_size = len(vocab) + 1
-vocab_answer_set = set()
+vocab_answer_set = OrderedSet()
 for story, q, answer in train + test:
     for item in answer.split():
         if re.search('\+|\-|\*|/', item):
@@ -190,9 +190,6 @@ load_model = load_model("my_model.h5")
 
 load_model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
 
-pkl.dump(tX,open('tX.pkl','wb'))
-pkl.dump(tXq,open('tXq.pkl','wb'))
-pkl.dump(tY,open('tY.pkl','wb'))
 
 loss, acc = load_model.evaluate([tX, tXq], tY, batch_size=BATCH_SIZE)
 print("Testing")
