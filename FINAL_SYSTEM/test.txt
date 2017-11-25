@@ -1,0 +1,1173 @@
+1 Joan found num2 seashells on the beach .
+2 she gave Sam some of her seashells .
+3 She has num1 seashell .
+4 How many seashells did she give to Sam ?	num2 num1 -	1 2 3
+1 There were num2 bales of hay in the barn .
+2 Tim stacked bales in the barn today .
+3 There are now num3 bales of hay in the barn .
+4 How many bales did he store in the barn ?	num3 num2 -	1 2 3
+1 There were num1 roses in the vase .
+2 Mary cut some roses from her flower garden .
+3 There are now num2 roses in the vase .
+4 How many roses did she cut ?	num2 num1 -	1 2 3
+1 Sam had num1 dimes in his bank .
+2 His dad gave him num2 dimes .
+3 How many dimes does Sam have now ?	num1 num2 +	1 2
+1 Alyssa 's dog had puppies .
+2 She gave num1 to her friends .
+3 She now has num3 puppies .
+4 How many puppies did she have to start with ?	num1 num3 +	1 2 3
+1 A restaurant served num3 pizzas during lunch and num2 during dinner today .
+2 How many pizzas were served today ?	num3 num2 +	1
+1 Sandy grew num1 carrots .
+2 Sam grew num2 carrots .
+3 How many carrots did they grow in total ?	num1 num2 +	1 2
+1 Benny picked num1 apples and Dan picked num3 apples from the apple tree .
+2 How many apples were picked in total ?	num1 num3 +	1
+1 Sam found num3 seashells and Mary found num2 seashells on the beach .
+2 How many seashells did they find together ?	num3 num2 +	1
+1 Sara picked num2 pears and Sally picked num1 pears from the pear tree .
+2 How many pears were picked in total ?	num2 num1 +	1
+1 Fred went to num3 basketball games this year , but missed 35 .
+2 He went to num2 games last year .
+3 How many basketball games did Fred go to in total ?	num3 num2 +	1 2
+1 There are num1 pencils and 44 crayons in the drawer .
+2 Joan placed num2 pencils in the drawer .
+3 How many pencils are now there in total ?	num1 num2 +	1 2
+1 Joan has num2 blue balloons Melanie has num3 blue balloons .
+2 How many blue balloons do they have in total ?	num2 num3 +	1
+1 Mary found num2 seashells and Jessica found num3 seashells on the beach .
+2 How many seashells did they find together ?	num2 num3 +	1
+1 A restaurant served num3 cakes during lunch and num2 during dinner today .
+2 How many cakes were served today ?	num3 num2 +	1
+1 Mike has num2 baseball cards .
+2 Sam bought num1 of Mike 's baseball cards .
+3 How many baseball cards does Mike have now ?	num2 num1 -	1 2
+1 There are num2 popular trees currently in the park .
+2 Park workers will plant num1 popular trees today .
+3 How many popular trees will the park have when the workers are finished ?	num2 num1 +	1 2
+1 There are num3 scissors in the drawer .
+2 Keith placed num2 scissors in the drawer .
+3 How many scissors are now there in all ?	num3 num2 +	1 2
+1 There are num3 walnut trees currently in the park .
+2 Park workers will plant num1 walnut trees today .
+3 How many walnut trees will the park have when the workers are finished ?	num3 num1 +	1 2
+1 There are num1 pencils in the drawer .
+2 Sara placed num3 pencils in the drawer .
+3 How many pencils are now there in all ?	num1 num3 +	1 2
+1 Mike has num2 orange marbles , he gave Sam num1 of the marbles .
+2 How many orange marbles does he now have ?	num2 num1 -	1
+1 Sam grew num1 watermelons , but the rabbits ate num3 watermelons .
+2 How many watermelons does Sam have ?	num1 num3 -	1
+1 Mary has num1 yellow marbles Joan has num3 yellow marbles .
+2 How many yellow marbles do they have in all ?	num1 num3 +	1
+1 Mary had num1 potatoes in the garden .
+2 The rabbits ate num3 of the potatoes .
+3 How many potatoes does Mary now have ?	num1 num3 -	1 2
+1 Jessica had num2 quarters in her bank .
+2 Her sister borrowed num1 of her quarters .
+3 How many quarters does Jessica have now ?	num2 num1 -	1 2
+1 Dan picked num3 limes and gave Sara num2 of the limes .
+2 How many limes does Dan have now ?	num3 num2 -	1
+1 Fred found num3 seashells on the beach , he gave Jessica num1 of the seashells .
+2 How many seashells does he now have ?	num3 num1 -	1
+1 There are num1 rulers in the drawer .
+2 Tim took num2 rulers from the drawer .
+3 How many rulers are now in the drawer ?	num1 num2 -	1 2
+1 Sara got fast food for lunch .
+2 Sara spent $ num2 on a hotdog and $ num1 on a salad .
+3 What was the total of the lunch bill ?	num2 num1 +	1 2
+1 Jason went to the mall on Saturday to buy clothes .
+2 He spent $ num3 on shorts and $ num2 on a jacket .
+3 In total , how much money did Jason spend on clothing ?	num3 num2 +	1 2
+1 Alyssa loves eating fruits .
+2 Alyssa paid $ num1 for grapes , and $ num3 for cherries .
+3 In total , how much money did Alyssa spend ?	num1 num3 +	1 2
+1 There were originally num2 houses in Lincoln County .
+2 During a housing boom , developers built num1 .
+3 How many houses are there now in Lincoln County ?	num2 num1 +	1 2
+1 Last year , num1 people were born in a country , and num3 people immigrated to it .
+2 How many new people began living in the country last year ?	num1 num3 +	1
+1 To fill an order , the factory dyed num1 yards of silk green and num3 yards pink .
+2 How many yards of silk did it dye for that order ?	num1 num3 +	1
+1 Tori is a school janitor .
+2 Last week , she picked up a total of num1 pieces of trash .
+3 If she picked up num3 pieces of trash in the classrooms , how many pieces of trash did Tori pick up outside the classrooms ?	num1 num3 -	1 2
+1 Molly owns the Wafting Pie Company .
+2 This morning , her employees used num3 eggs to bake pumpkin pies .
+3 If her employees used a total of num2 eggs today , how many eggs did they use in the afternoon ?	num2 num3 -	1 2
+1 Students at Arcadia schools are participating in a coat drive .
+2 num3 coats have been collected so far .
+3 num2 coats were collected from the high schools , and the rest from the elementary schools .
+4 How many coats were collected at the elementary schools ?	num3 num2 -	1 2 3
+1 A company painted some houses in Hancock County white and blue using a total of num1 gallons of paint .
+2 If they used num2 gallons of white paint , how many gallons of blue paint did the company use ?	num1 num2 -	1
+1 Last year , egg producers in Douglas County produced num3 eggs .
+2 This year , those same farms produced num1 eggs .
+3 How many more eggs did the farms produce this year ?	num1 num3 -	1 2
+1 An oil pipe in the sea broke .
+2 Before engineers started to fix the pipe , num2 gallons of oil leaked into the water .
+3 A total of num3 gallons of oil leaked before the pipe was fixed .
+4 How many gallons of oil leaked while the engineers were fixing the pipe ?	num3 num2 -	1 2 3
+1 Oscar 's bus ride to school is num2 mile and Charlie 's bus ride is num3 mile .
+2 How much longer is Oscar 's bus ride than Charlie 's ?	num2 num3 -	1
+1 Kendall is learning to drive , so this weekend she practiced driving num3 mile with her mother and another num1 mile with her father .
+2 How far did Kendall drive in all ?	num3 num1 +	1
+1 A tailor cut num1 inch off a skirt and num3 inch off a pair of pants .
+2 How much more did the tailor cut off the skirt than the pants ?	num1 num3 -	1
+1 Ella owns 2 dogs .
+2 Each day , 1 dog eats num1 scoop of dog food and the other dog eats num1 scoop .
+3 Together , how much dog food do the 2 dogs eat each day ?	num1 num2 +	1 2
+1 At the beach , Miki and her sister both built sandcastles and then measured their heights .
+2 Miki 's sandcastle was num3 foot tall and her sister 's was num2 foot tall .
+3 How much taller was Miki 's sandcastle than her sister 's ?	num3 num2 -	1 2
+1 Craig walked num3 mile from school to David 's house and num2 mile from David 's house to his own house .
+2 How many miles did Craig walk in all ?	num3 num2 +	1
+1 Greg and Sharon own neighboring cornfields .
+2 Greg harvested num1 acre of corn on Monday and Sharon harvested num3 acre .
+3 How many more acres did Greg harvest than Sharon ?	num1 num3 -	1 2
+1 While making desserts for a bake sale , Victor used num2 scoop of brown sugar as well as num3 scoop of white sugar .
+2 How much more brown sugar did Victor use ?	num2 num3 -	1
+1 Kelly 's chemistry textbook weighs num2 pounds and her geometry textbook weighs num1 pound .
+2 How much more does the chemistry textbook weigh than the geometry textbook ?	num2 num1 -	1
+1 Roadster 's Paving Company used num1 tons of cement to pave Lexi 's street and num2 tons of cement to pave Tess 's street .
+2 How much cement did Roadster 's Paving Company use in all ?	num1 num2 +	1
+1 Kyle jogged num3 laps in P.E.
+2 class and num2 laps during track practice .
+3 How many laps did Kyle jog in all ?	num3 num2 +	1 2
+1 Hoping to be named Salesperson of the Month , Rosa called the names from num3 pages of the phone book last week .
+2 This week , she called the people listed on another num1 pages of the same phone book .
+3 How many pages worth of people did Rosa call in all ?	num3 num1 +	1 2
+1 Irene just bought a new lamp for her bedside table .
+2 The old lamp was num3 foot tall and the new lamp is numnum3 feet tall .
+3 How much taller is the new lamp than the old lamp ?	num1 num3 -	1 2
+1 Kenji and his classmates placed colored blocks on a scale during a science lab .
+2 The yellow block weighed num3 pounds and the green block weighed num1 pounds .
+3 How much more did the yellow block weigh than the green block ?	num3 num1 -	1 2
+1 A carpenter bought a piece of wood that was num2 meters long .
+2 Then she sawed num1 meters off the end .
+3 How long is the piece of wood now ?	num2 num1 -	1 2
+1 Kevin bought 2 watermelons .
+2 The first watermelon was num1 pounds , and the second watermelon was num2 pounds .
+3 How many pounds of watermelon did Kevin buy ?	num1 num2 +	1 2
+1 Brennan had num2 grams of pepper .
+2 Then he used num3 grams of the pepper to make some scrambled eggs .
+3 How much pepper does Brennan have ?	num2 num3 -	1 2
+1 Pamela bought num3 ounces of sugar , and she spilled num2 ounces of it on the floor .
+2 How much is ?	num3 num2 -	1
+1 Marta picked 2 pumpkins .
+2 The first pumpkin weighed num1 pounds , and the second pumpkin weighed num3 pounds .
+3 How much did the 2 pumpkins weigh all together ?	num1 num3 +	1 2
+1 A truck carrying num2 pounds of sand travels to a construction yard and loses num1 pounds of sand along the way .
+2 How much sand does the truck have when it arrives at the yard ?	num2 num1 -	1
+1 A carpenter bought a piece of wood that was num3 centimeters long .
+2 Then he sawed num2 centimeters off the end .
+3 How long is the piece of wood now ?	num3 num2 -	1 2
+1 Jason found num2 seashells and 48 starfish on the beach .
+2 He gave num1 of the seashells to Tim .
+3 How many seashells does Jason now have ?	num2 num1 -	1 2
+1 Mike had 33 quarters and num1 nickels in his bank .
+2 His dad borrowed num3 nickels from Mike .
+3 How many nickels does he have now ?	num1 num3 -	1 2
+1 Dan had num3 baseball cards , and 8 were torn .
+2 Sam bought num1 of Dan 's baseball cards .
+3 How many baseball cards does Dan have now ?	num3 num1 -	1 2
+1 There are num1 short trees and 44 tall trees currently in the park .
+2 Park workers will plant num3 short trees today .
+3 How many short trees will the park have when the workers are finished ?	num1 num3 +	1 2
+1 Joan had num2 Pokemon cards , and 6 were torn .
+2 Sara bought num1 of Joan 's Pokemon cards .
+3 How many Pokemon cards does Joan have now ?	num2 num1 -	1 2
+1 Sara had 100 pennies and num3 quarters in her bank .
+2 Her dad borrowed num1 quarters from Sara .
+3 How many quarters does she have now ?	num3 num1 -	1 2
+1 There are num3 short bushes and 4 tall trees currently in the park .
+2 Park workers had to cut down num2 short bushes that were damaged .
+3 How many short bushes will the park have when the workers are finished ?	num3 num2 -	1 2
+1 Melanie had num2 baseball cards , and 9 were torn .
+2 Sara bought num3 of Melanie 's baseball cards .
+3 How many baseball cards does Melanie have now ?	num2 num3 -	1 2
+1 Jessica grew num2 watermelons and 30 carrots , but the rabbits ate num3 watermelons .
+2 How many watermelons does Jessica have ?	num2 num3 -	1
+1 Nancy found num3 seashells and 25 starfish on the beach .
+2 She gave num2 of the seashells to Jason .
+3 How many seashells does Nancy now have ?	num3 num2 -	1 2
+1 Joan has num3 green and 48 red marbles .
+2 Fred took num2 of Joan 's green marbles .
+3 How many green marbles does Joan now have ?	num3 num2 -	1 2
+1 Sandy had 36 pennies and num2 nickels in her bank .
+2 Her dad borrowed num3 nickels from Sandy .
+3 How many nickels does she have now ?	num2 num3 -	1 2
+1 For his car , Mike spent $ num3 on speakers and $ num1 on new tires .
+2 Mike wanted 3 CD 's for $ 4.58 but decided not to .
+3 In total , how much did Mike spend on car parts ?	num3 num1 +	1 2
+1 There were num3 bales of hay in the barn and 32 bales in the shed .
+2 Tom stacked bales in the barn today .
+3 There are now num1 bales of hay in the barn .
+4 How many bales did he store in the barn ?	num1 num3 -	1 2 3
+1 There are num3 short trees and 32 tall trees currently in the park .
+2 Park workers will plant short trees today .
+3 When the workers are finished there will be num2 short trees in the park .
+4 How many short trees did the workers plant today ?	num2 num3 -	1 2 3
+1 Joan found num2 seashells and 12 starfishes on the beach .
+2 She gave Alyssa some of her seashells .
+3 She has num1 seashell .
+4 How many seashells did she give to Alyssa ?	num1 num2 +	1 2 3
+1 Tim had 7 quarters and num1 nickels in his bank .
+2 His dad gave him num2 nickels and 5 pennies .
+3 How many nickels does Tim have now ?	num1 num2 +	1 2
+1 A restaurant served num3 slices of pie during lunch and num2 during dinner today .
+2 It served 8 of them yesterday .
+3 How many slices of pie were served today ?	num3 num2 +	1 2
+1 Jason grew num1 watermelons and 30 pumpkins .
+2 Sandy grew num2 watermelons .
+3 How many watermelons did they grow in total ?	num1 num2 +	1 2
+1 Mike went to num2 basketball games this year , but missed 41 .
+2 He went to num1 games last year .
+3 How many basketball games did Mike go to in total ?	num2 num1 +	1 2
+1 There are num2 maple trees and 22 orange trees currently in the park .
+2 Park workers will plant maple trees today .
+3 When the workers are finished there will be num1 maple trees in the park .
+4 How many maple trees did the workers plant today ?	num1 num2 -	1 2 3
+1 Dan had num2 peaches and 10 pears at his roadside fruit dish .
+2 He went to the orchard and picked peaches to stock up .
+3 There are now num3 peaches .
+4 how many did he pick ?	num3 num2 -	1 2 3
+1 Melanie has num2 books and 31 magazines in her library .
+2 She bought several books at a yard sale over the weekend .
+3 She now has num1 books in her library .
+4 How many books did she buy at the yard sale ?	num1 num2 -	1 2 3
+1 A restaurant served numnum3 hot dogs during lunch and num3 during dinner today .
+2 It served 5 of them yesterday .
+3 How many hot dogs were served today ?	num2 num3 +	1 2
+1 There are num2 short trees and 6 tall trees currently in the park .
+2 Park workers will plant num1 short trees today .
+3 How many short trees will the park have when the workers are finished ?	num2 num1 +	1 2
+1 There are num1 pencils and 40 scissors in the drawer .
+2 Joan placed num2 pencils in the drawer .
+3 How many pencils are now there in all ?	num1 num2 +	1 2
+1 Jordan builds a model '52 Mustang.
+2 If the model car is num2 inches long and the scale is 1 to num1 , how many inches would the real Mustang be?	num2 num1 *	1
+1 At the carnival , tickets for the rides are num1 dollars each , or you can buy an armband for num3 dollars and ride unlimited for one night.
+2 At how many rides does the armband cost the same as buying individual tickets?	num3 num1 /	1
+1 Soft drinks are on sale at the grocery store for num2 dollars for a num3 pack.
+2 How much would each can of soft drink cost if purchased individually , in dollars?	num2 num3 /	1
+1 It took me num1 minutes to walk num2 meters.
+2 How fast was I travelling?	num2 num1 /	1
+1 A car traveled num2 kilometers in num3 hours.
+2 What was its average speed?	num2 num3 /	1
+1 If num3 lollipops cost num1 dollars , how much does 1 lollipop cost , in dollars?	num1 num3 /	1
+1 A textbook costs a bookstore num3 dollars , and the store sells it for num2 dollars.
+2 Find the amount of profit based on the selling price.	num2 num3 -	1
+1 Joan found num1 seashells on the beach.
+2 she gave Sam some of her seashells.
+3 She has num3 seashell left.
+4 How many seashells did she give to Sam ?	num3 num1 +	1 2 3
+1 After eating at the restaurant, Sally, Sam, and Alyssa decided to divide the bill evenly.
+2 If each person paid numnum2 dollars, what was the total of the bill ?	num3 num2 *	1
+1 There are num3 walnut trees currently in the park.
+2 Park workers will plant more walnut trees today.
+3 When the workers are finished there will be num1 walnut trees in the park.
+4 How many walnut trees did the workers plant today ?	num1 num3 -	1 2 3
+1 Mike had num1 peaches left at his roadside fruit stand.
+2 He went to the orchard and picked more peaches to stock up the stand.
+3 There are now num2 peaches at the stand, how many did he pick ?	num2 num1 -	1 2
+1 Joan went to num3 football games this year.
+2 She went to num2 football games last year.
+3 How many football games did Joan go to in all ?	num3 num2 +	1 2
+1 Alyssa's dog had puppies.
+2 She gave num1 to her friends.
+3 She now has num2 puppies left.
+4 How many puppies did she have to start with ?	num2 num1 +	1 2 3
+1 Sam found num2 seashells and Mary found num1 seashells on the beach.
+2 How many seashells did they find together ?	num2 num1 +	1
+1 Keith has num3 books.
+2 Jason has num1 books.
+3 How many books do they have together ?	num3 num1 +	1 2
+1 Fred grew num2 cantelopes.
+2 Tim grew num1 cantelopes.
+3 How many cantelopes did they grow in total ?	num2 num1 +	1 2
+1 Mary found num2 seashells and Jessica found num1 seashells on the beach.
+2 How many seashells did they find together ?	num2 num1 +	1
+1 There are num3 maple trees currently in the park.
+2 Park workers will plant more maple trees today.
+3 When the workers are finished there will be num2 maple trees in the park.
+4 How many maple trees did the workers plant today ?	num2 num3 -	1 2 3
+1 Dan found num3 seashells on the beach, he gave Jessica some of his seashells.
+2 He has num1 seashell left.
+3 How many seashells did he give to Jessica ?	num1 num3 +	1 2
+1 Sally had num3 peaches left at her roadside fruit stand.
+2 She went to the orchard and picked more peaches to stock up the stand.
+3 There are now num1 peaches at the stand, how many did she pick ?	num1 num3 -	1 2
+1 Benny received num3 dollars for his birthday.
+2 He went to a sporting goods store and bought a baseball glove, baseball, and bat.
+3 He had num1 dollars left over.
+4 How much did he spent on the baseball gear ?	num1 num3 +	1 2 3
+1 There were num2 bales of hay in the barn.
+2 Jason stacked more bales in the barn today.
+3 There are now num1 bales of hay in the barn.
+4 How many bales did he store in the barn ?	num1 num2 -	1 2 3
+1 Nancy grew num2 potatoes.
+2 Sandy grew num1 potatoes.
+3 How many potatoes did they grow in total ?	num2 num1 +	1 2
+1 There are num1 oak trees currently in the park.
+2 Park workers will plant num2 more oak trees today.
+3 How many oak trees will the park have when the workers are finished ?	num1 num2 +	1 2
+1 There were a total of num3 football games this year.
+2 Melanie missed num2 of the games.
+3 How many football games did Melanie go to in all ?	num3 num2 -	1 2
+1 A restaurant served num3 cakes during lunch and num1 during dinner today.
+2 How many cakes were served today ?	num3 num1 +	1
+1 There are num1 pencils in the drawer.
+2 Nancy placed num2 more  pencils in the drawer.
+3 How many pencils are now there in total ?	num1 num2 +	1 2
+1 Benny's high school played num2 baseball games this year.
+2 He attended  num3 games.
+3 How many baseball games did Benny miss ?	num2 num3 -	1 2
+1 Mike has num1 baseball cards.
+2 Sam bought num3 of Mike's  baseball cards.
+3 How many baseball cards does Mike have now ?	num1 num3 -	1 2
+1 There are num2 popular trees currently in the park.
+2 Park workers will plant  num1 more popular trees today.
+3 How many popular trees will the park have when the workers are finished ?	num2 num1 +	1 2
+1 Sam had num3 pennies in his bank.
+2 He spent num1 of his pennies.
+3 How many pennies does he have now ?	num3 num1 -	1 2
+1 There are num3 walnut trees currently in the park.
+2 Park workers will plant  num2 more walnut trees today.
+3 How many walnut trees will the park have when the workers are finished ?	num3 num2 +	1 2
+1 There are num1 pencils in the drawer.
+2 Sara placed num2 more  pencils in the drawer.
+3 How many pencils are now there in all ?	num1 num2 +	1 2
+1 Mike has num1 dollars in num2 dollar bills.
+2 How many five dollars bills does  he have ?	num1 num2 /	1
+1 Nancy goes fishing with Joan.
+2 They catch num3 trout.
+3 If they equally split up the trout, how many will each one get ?	num3 num1 /	1 2
+1 There are num2 students at a school.
+2 If each classroom holds num3 students, how many classrooms are needed at the school?	num2 num3 /	1
+1 Mary earns $num3 cleaning a home.
+2 How many homes did she clean, if she made num2 dollars?	num2 num3 /	1
+1 Sam grew num1 watermelons, but the rabbits ate num3 watermelons.
+2 How many watermelons does Sam have left ?	num1 num3 -	1
+1 There are num2 calories in a candy bar.
+2 How many calories are there in num1 candy bars ?	num2 num1 *	1
+1 Dan has num1 blue marbles.
+2 Mary has num3 times more blue marbles than Dan.
+3 How many blue marbles does Mary have ?	num1 num3 *	1 2
+1 Melanie, Benny, Sally, and Jessica each have num3 baseball cards.
+2 How many baseball cards do they have in all ?	num2 num3 *	1
+1 Keith grew num3 turnips.
+2 Alyssa grew num1 turnips.
+3 How many turnips did they grow in all ?	num3 num1 +	1 2
+1 Joan has saved num3 quarters from washing cars.
+2 How many cents does Joan have ?	num3 num2 *	1
+1 There were a total of num3 soccer games in the season.
+2 The season is played for num2 months.
+3 How many soccer games were played each month, if each month has the same number of games?	num3 num2 /	1 2
+1 Tom was at the beach for num3 days and found num1 seashells every day.
+2 How many seashells did Tom find during the beach trip ?	num3 num1 *	1
+1 Benny worked num2 hours for num3 days.
+2 How many hours did he work in total ?	num2 num3 *	1
+1 Jessica, Sandy, and Jason each have num2 pencils.
+2 How many pencils do they have have in all ?	num1 num2 *	1
+1 Sara has saved num2 quarters from washing cars.
+2 How many cents does Sara have ?	num2 num3 *	1
+1 Benny goes to lunch with Sally and Sandy.
+2 The total bill came to numnum2 dollars.
+3 They decided to equally split up the bill, how much will each person have to pay ?	num3 num2 /	1 2
+1 Mike worked num3 hours, each day, for num1 days.
+2 How many hours did he work in total ?	num3 num1 *	1
+1 There were a total of num1 baseball games a month.
+2 The season is played for num2 months.
+3 How many baseball games are in a season ?	num1 num2 *	1 2
+1 There were a total of num2 soccer games this year.
+2 Jessica missed num1 of the games.
+3 How many soccer games did Jessica go to in all ?	num2 num1 -	1 2
+1 Dan found num2 seashells but num1 were broken.
+2 How many unbroken seashells did Dan find ?	num2 num1 -	1
+1 Joan picked num2 apples from the orchard, and gave num1 apples  to  Melanie.
+2 How many apples does Joan have now ?	num2 num1 -	1
+1 Tom has num3 violet balloons, he gave Fred num1 of the balloons.
+2 How many violet balloons does he now have ?	num3 num1 -	1
+1 Joan decided to sell all of her old books.
+2 She gathered up num1 books to sell.
+3 She sold num3 books in a yard sale.
+4 How many books does Joan now have ?	num1 num3 -	1 2 3
+1 Alyssa bought some toys.
+2 She bought a football for $num2, and spent $num3 on marbles.
+3 In total, how much did Alyssa spend on toys?	num2 num3 +	1 2
+1 Jessica spent $num2 on a cat toy, and a cage cost her $num1.
+2 What was the total cost of Jessica's purchases?	num2 num1 +	1
+1 Sara got fast food for lunch.
+2 Sara spent $num2 on a hotdog and $num1 on a salad.
+3 What was the total of the lunch bill?	num2 num1 +	1 2
+1 Jason went to the mall on Saturday to buy clothes.
+2 He spent $num1 on shorts and $num2 on a jacket.
+3 In total, how much money did Jason spend on clothing?	num1 num2 +	1 2
+1 Before December, customers buy 1,346 ear muffs from the mall.
+2 During December, they buy 6,444 more, and there are none left.
+3 In all, how many ear muffs do the customers buy?	num2 num1 +	1 2
+1 Diane is a beekeeper.
+2 Last year, she harvested 2,479 pounds of honey.
+3 This year, she bought some new hives and increased her honey harvest by 6,085 pounds.
+4 How many pounds of honey did Diane harvest this year?	num2 num3 +	1 2 3
+1 An oil pipe in the sea broke.
+2 Before engineers started to fix the pipe, 6,522 liters of oil leaked into the water.
+3 While the engineers worked, the pipe leaked 5,165 more liters of oil.
+4 In all, how many liters of oil leaked into the water?	num3 num2 +	1 2 3
+1 Abe's family moved from the Bahamas to Japan, so they had convert their money into Japanese yen.
+2 Their checking account now has 6,359 yen and their savings account now has 3,485 yen.
+3 How many yen do they have?	num1 num2 +	1 2
+1 Christina just transferred $num1 out of her bank account.
+2 As a result, the account now has $26,935 left in it.
+3 How much money was in the account before the transfer?	num2 num1 +	1 2
+1 A dust storm sweeps across the prairie.
+2 It covers 64,535 acres of the prairie in dust, but leaves num3 acres untouched.
+3 How many acres does the prairie cover?	num1 num3 +	1 2
+1 Last year, 90,171 people were born in a country, and 16,320 people immigrated to it.
+2 How many new people began living in the country last year?	num2 num1 +	1
+1 A ship full of grain crashes into a coral reef.
+2 By the time the ship is fixed, 49,952 tons of grain have spilled into the water.
+3 Only num1 tons of grain remain onboard.
+4 How many tons of grain did the ship originally contain?	num3 num1 +	1 2 3
+1 Each year, salmon travel upstream, going from the ocean to the rivers where they were born.
+2 This year, 712,261 male and 259,378 female salmon returned to their rivers.
+3 How many salmon made the trip?	num3 num1 +	1 2
+1 Mary has numnum1 yellow marbles.
+2 Joan has num1 yellow marbles.
+3 How many yellow marbles do they have in all ?	num3 num1 +	1 2
+1 At a pie-eating contest, Erik got through num2 of a pie before time was called; Frank finished just num3 of a pie.
+2 How much more pie did Erik eat than Frank?	num2 num3 -	1
+1 A tailor cut num3 of an inch off a skirt and num2 of an inch off a pair of pants.
+2 How much more did the tailor cut off the skirt than the pants?	num3 num2 -	1
+1 Ella owns two dogs.
+2 Each day, one dog eats num1 of a scoop of dog food and the other dog eats num1 of a scoop.
+3 Together, how much dog food do the two dogs eat each day?	num1 num2 +	1 2
+1 Mandy made an apple pie.
+2 She used num3 of a tablespoon of cinnamon and num2 of a tablespoon of nutmeg.
+3 How much more cinnamon than nutmeg did Mandy use?	num3 num2 -	1 2
+1 Stanley ran num1 of a mile and walked num2 of a mile.
+2 How much farther did Stanley run than walk?	num1 num2 -	1
+1 Dina made cookies.
+2 She used num1 of a cup of flour and num2 of a cup of sugar.
+3 How much more flour than sugar did Dina use?	num1 num2 -	1 2
+1 Suzie found two worms in the yard and measured them with a ruler.
+2 One worm was num1 of an inch long.
+3 The other worm was num2 of an inch long.
+4 How much longer was the longer worm?	num1 num2 -	1 2 3
+1 In Shannon's apartment complex, num3 of the apartments are one-bedroom apartments and num1 are two-bedroom apartments.
+2 What fraction of the apartments are either one- or two-bedroom apartments?	num3 num1 +	1
+1 At the beach, Miki and her sister both built sandcastles and then measured their heights.
+2 Miki's sandcastle was num3 of a foot tall and her sister's was num2 of a foot tall.
+3 How much taller was Miki's sandcastle than her sister's?	num3 num2 -	1 2
+1 Michelle began her pizza delivery route with num1 of a tank of gas in her car.
+2 When she made it back to the pizzeria, num3 of a tank of gas was left.
+3 How much gas did Michelle use?	num1 num3 -	1 2
+1 Greg and Sharon own neighboring cornfields.
+2 Greg harvested num1 of an acre of corn on Monday and Sharon harvested num3 of an acre.
+3 How many more acres did Greg harvest than Sharon?	num1 num3 +	1 2
+1 In Yardley it snowed num1 of an inch in the morning and num2 of an inch in the afternoon.
+2 What was the total amount of snowfall?	num1 num2 +	1
+1 Dale's Vegetarian Restaurant bought num2 pounds of green peppers and num2 pounds of red peppers.
+2 How many pounds of peppers did Dale's Vegetarian Restaurant buy in all?	num2 num1 +	1
+1 Kelly's chemistry textbook weighs num1 pounds and her geometry textbook weighs num2 of a pound.
+2 How much more does the chemistry textbook weigh than the geometry textbook?	num1 num2 -	1
+1 Roadster's Paving Company used num2 tons of cement to pave Lexi's street and num3 tons of cement to pave Tess's street.
+2 How much cement did Roadster's Paving Company use in all?	num2 num3 +	1
+1 As part of a lesson on earthquakes, a science class is researching the movement of a nearby fault line.
+2 The fault line moved num2 inches during the past year and num3 inches the year before.
+3 How far did the fault line move in all?	num2 num3 +	1 2
+1 At the beach, Janet and her sister both built sandcastles and then measured their heights.
+2 Janet's sandcastle was num2 feet tall and her sister's was num1 feet tall.
+3 How much taller was Janet's sandcastle than her sister's?	num2 num1 -	1 2
+1 A farmer started the day with num1 buckets of seeds.
+2 After spending the morning sowing seeds, she now has num2 buckets left.
+3 How many buckets of seeds did the farmer sow?	num1 num2 -	1 2
+1 Kelly bought num2 pounds of peanuts and num3 pounds of raisins.
+2 How many pounds of snacks did she buy in all?	num2 num3 +	1
+1 Ron weighed two colored metal balls during a science class.
+2 The blue ball weighed num1 pounds and the brown ball weighed num2 pounds.
+3 If Ron places both balls on the scale at the same time, what will the scale read?	num1 num2 +	1 2
+1 It snowed num3 inches on Monday and num1 inches on Tuesday.
+2 How much did it snow on Monday and Tuesday combined?	num3 num1 +	1
+1 A construction company bought num1 tons of gravel and num2 tons of sand.
+2 How many tons of material did the company buy in all?	num1 num2 +	1
+1 It rained num2 inches on Saturday and num3 inches on Sunday.
+2 How much did it rain on Saturday and Sunday combined?	num2 num3 +	1
+1 Tori was num2 feet tall.
+2 Then she grew num1 feet taller.
+3 How tall is Tori now?	num2 num1 +	1 2
+1 How many cookies would you have if you had num3 bags of cookies with num1 cookies in each bag?	num3 num1 *	1
+1 Emily collected eggs from the hen and put them into num3 baskets.
+2 She put num1 eggs into each basket.
+3 How many eggs did Emily collect?	num3 num1 *	1 2
+1 The farmers reported that they harvest num1 sacks of apples from each of the num2 sections of the orchard daily.
+2 How many sacks are harvested every day?	num1 num2 *	1
+1 Lexie’s mom gathered all her watercolor paintings and thought of placing an equal number of paintings in num3 rooms in the house.
+2 If Lexie has num1 watercolor paintings, how many paintings will be placed in each room?	num1 num3 /	1
+1 Christian’s mother prepared lemonade.
+2 Every pitcher of lemonade can serve num2 glasses.
+3 If she was able to serve num3 glasses of lemonade, how many pitchers of lemonade did she prepare?	num3 num2 /	1 2
+1 Allen, Shiela’s brother, likes to play with blocks.
+2 Shiela repainted Allen’s old blocks in different colors.
+3 If Allen has num1 identical blocks and there are num2 blocks for every color of paint used, how many colors did Shiela use?	num1 num2 /	1 2
+1 A large bag of balls was kept under Haley’s bed.
+2 Her mom placed the balls in bags for children in foster homes.
+3 If every bag can contain num3 balls and Haley has num1 balls, how many bags will be used?	num1 num3 /	1 2
+1 Arthur baked num2 muffins.
+2 How many more muffins does Arthur have to bake to have num3 muffins?	num3 num2 -	1
+1 Lizette has num3 stamps.
+2 Lizette has num2 more stamps than Minerva.
+3 How many stamps does Minerva have?	num3 num2 -	1 2
+1 A DVD book holds num1 DVDs.
+2 There are num2 DVDs already in the book.
+3 How many more DVDs can be put in the book?	num1 num2 -	1 2
+1 Adam has $num3 to buy an airplane that costs $num1.
+2 How much change will Adam get?	num3 num1 -	1
+1 One stamp costs num3 cents.
+2 If the cost of each stamp remains the same, how much would num1 stamps cost?	num3 num1 *	1
+1 Lisa rented num1 DVDs for $num3.
+2 How much did each DVD cost to rent?	num3 num1 /	1
+1 There were num1 pieces of candy in a jar.
+2 If num2 pieces were red and the rest were blue, how many were blue?	num1 num2 -	1
+1 num2 students were sitting at each table in the lunchroom.
+2 There are num1 tables.
+3 How many students were sitting in the lunchroom?	num2 num1 *	1 2
+1 Tyler had num1 dogs.
+2 Each dog had num3 puppies.
+3 How many puppies does Tyler now have?	num1 num3 *	1 2
+1 Mrs. Hilt has num1 markers.
+2 They are divided equally into num3 packages.
+3 Mrs. Hilt wants to know how many markers are in each package?	num1 num3 /	1 2
+1 Mrs. Hilt read num3 books.
+2 Each book had num2 chapters in it.
+3 How many chapters did Mrs. Hilt read?	num3 num2 *	1 2
+1 Mrs. Hilt is baking bread.
+2 She needs num3 cups of flour to bake num2 loaves of bread.
+3 How much flour will she need to make one loaf of bread?	num3 num2 /	1 2
+1 A pet supply store has num1 bags of dog food and num3 bags of cat food.
+2 How many more bags of dog food are there than cat food?	num1 num3 -	1
+1 David has num1 boxes of stuffed toy dogs.
+2 Each box has num3 dogs in it.
+3 How many dogs are there in all?	num1 num3 *	1 2
+1 Freeport McMoran projects the world grain supply will be num3 metric tons and the supply will be only num1 of the world grain demand.
+2 What will the world grain demand be?	num3 num1 /	1
+1 A num3 ounce can of cranberry juice sells for num2 cents.
+2 What is the cost in cents per ounce.	num2 num3 /	1
+1 If there are num1 bottle caps in a box and Linda puts num1 more bottle caps inside, how many bottle caps are in the box?	num1 num2 +	1
+1 Bobby collects num2 blocks.
+2 Bobby's father gives Bobby num3 more.
+3 How many blocks does Bobby have?	num2 num3 +	1 2
+1 Michelle has num1 crayons.
+2 Janet has num1 crayons.
+3 If Janet gives all of her crayons to Michelle, how many crayons will Michelle have?	num1 num3 +	1 2
+1 If there are num1 eggs in a box and Daniel puts num2 more eggs inside, how many eggs are in the box?	num1 num2 +	1
+1 Wayne collects num2 blocks.
+2 Wayne's father gives Wayne num3 more.
+3 How many blocks does Wayne have?	num2 num3 +	1 2
+1 Andrew starts with num2 eggs.
+2 He buys num3 more.
+3 How many eggs does Andrew end with?	num2 num3 +	1 2
+1 Angela has num3 tickets.
+2 Annie gives Angela num2 more.
+3 How many tickets does Angela have in all?	num3 num2 +	1 2
+1 Joseph has num1 candies.
+2 Kathy gives Joseph num3 more.
+3 How many candies does Joseph have in all?	num1 num3 +	1 2
+1 Janet has num3 apples.
+2 She finds another num1.
+3 How many apples does Janet have in all?	num3 num1 +	1 2
+1 Joyce starts with num1 apples.
+2 She gives num3 to Larry.
+3 How many apples does Joyce end with?	num1 num3 -	1 2
+1 Jane starts with num3 crayons.
+2 num1 are eaten by a hippopotamus.
+3 How many crayons does Jane end with?	num3 num1 -	1 2
+1 Roger has num2 candies.
+2 He gives num3 to Stephanie.
+3 How many candies will Roger have?	num2 num3 -	1 2
+1 Mildred weighs num3 pounds.
+2 Carol weighs num1 pounds.
+3 How much heavier is Mildred than Carol?	num3 num1 -	1 2
+1 Diana starts with num2 bottle caps.
+2 num1 are eaten by a hippopotamus.
+3 How many bottle caps does Diana end with?	num2 num1 -	1 2
+1 Bridget weighs numnum3 pounds.
+2 Martha weighs num3 pounds.
+3 How much heavier is Bridget than Martha?	num2 num3 -	1 2
+1 Pamela has num1 Skittles.
+2 She gives num2 to Karen.
+3 How many Skittles will Pamela have?	num1 num2 -	1 2
+1 Evelyn starts with num3 Skittles.
+2 She shares num2 with Christine.
+3 How many Skittles does Evelyn end with?	num3 num2 -	1 2
+1 Helen starts with num2 cards.
+2 Gary takes num3 away.
+3 How many cards does Helen end with?	num2 num3 -	1 2
+1 Roger has num1 blocks.
+2 num3 are eaten by a hippopotamus.
+3 How many blocks will Roger have?	num1 num3 -	1 2
+1 Ralph starts with num3 peanuts.
+2 He loses num2.
+3 How many peanuts does Ralph end with?	num3 num2 -	1 2
+1 Sean has num3 blocks.
+2 num1 are eaten by a hippopotamus.
+3 How many blocks will Sean have?	num3 num1 -	1 2
+1 Jennifer starts with num3 apples.
+2 She finds another num34.
+3 How many apples does Jennifer end with?	num3 num2 +	1 2
+1 Each bottle cap costs $num10.
+2 How much do num3 bottle caps cost?	num1 num3 *	1
+1 Each child has num2 bottle caps.
+2 If there are num1 children, how many bottle caps are there in total?	num2 num1 *	1
+1 Sarah has num2 boxes of apples.
+2 Each box holds num2 apples.
+3 How many apples does Sarah have?	num2 num1 *	1 2
+1 Martin has num1 boxes of crayons.
+2 Each box holds num2 crayons.
+3 How many crayons does Martin have?	num1 num2 *	1 2
+1 Kimberly went to the store num2 times last month.
+2 She buys num1 peanuts each time she goes to the store.
+3 How many peanuts did Kimberly buy last month?	num2 num1 *	1 2
+1 The school is planning a field trip.
+2 There are num1 students and num2 seats on each school bus.
+3 How many buses are needed to take the trip?	num1 num2 /	1 2
+1 The school is planning a field trip.
+2 There are num2 students and num1 seats on each school bus.
+3 How many buses are needed to take the trip?	num2 num1 /	1 2
+1 Peter has num2 candies stored in boxes.
+2 If there are num2 boxes, how many candies must go in each box?	num2 num1 /	1
+1 Harry is inviting num2 friends to a party.
+2 He has num1 cookies.
+3 How many cookies will each friend get?	num1 num2 /	1 2
+1 There are num3 candies in Kathy's candy collection.
+2 If the candies are organized into num1 groups, how big is each group?	num3 num1 /	1
+1 The school is planning a field trip.
+2 There are num2 students and num3 seats on each school bus.
+3 How many buses are needed to take the trip?	num2 num3 /	1 2
+1 Albert has num2 oranges stored in boxes.
+2 If there are num1 boxes, how many oranges must go in each box?	num2 num1 /	1
+1 Lori has num3 marbles.
+2 If she shares them among num2 friends, how many marbles does each friend get?	num3 num2 /	1
+1 Brenda wants to split a collection of erasers into groups of num1.
+2 Brenda has num2 erasers.
+3 How many groups will be created?	num2 num1 /	1 2
+1 Ashley sold num3 boxes of Samoas.
+2 How many cases of num3 boxes, plus extra boxes does Ashley need?	num3 num2 /	1
+1 If Karen sold num3 boxes of Tagalongs, how many cases of num1 boxes does Karen pickup from the cookie mom?	num3 num1 /	1
+1 If Madison sold num1 boxes of Tagalongs, how many cases of num3 boxes does Madison pickup from the cookie mom?	num1 num3 /	1
+1 If Harold split num1 apples between num3 people in her class and kept the left overs, how many apples did each classmate get?	num1 num3 /	1
+1 Lemon heads come in packages of num3.
+2 Louis ate num1 Lemon Heads.
+3 How many whole boxes did he eat and how many Lemon Heads does he have left?	num1 num3 /	1 2
+1 Lemon heads come in packages of num3.
+2 Louis ate num1 Lemon Heads.
+3 How many whole boxes did he eat and how many Lemon Heads does he have left?	num1 num3 /	1 2
+1 Marilyn starts with num2 bottle caps.
+2 She shares num1 with Nancy.
+3 How many bottle caps does Marilyn end with?	num2 num1 -	1 2
+1 William has num1 bottle caps.
+2 He buys num3 more.
+3 How many bottle caps does William have in all?	num1 num3 +	1 2
+1 Carol starts with num2 blocks.
+2 She loses num1.
+3 How many blocks does Carol end with?	num2 num1 -	1 2
+1 There are num3 bananas in a pile on the desk.
+2 Each banana comes in a package of 1num2.
+3 num2 bananas are added to the pile.
+4 How many bananas are there in the pile?	num3 num2 +	1 2 3
+1 Kimberly has num1 Skittles.
+2 She buys num3 more.
+3 Later, Kimberly buys 18 oranges at the store.
+4 How many Skittles does Kimberly have in all?	num1 num3 +	1 2 3
+1 Annie has num2 apples.
+2 She gets num2 more from Nathan.
+3 Later, Annie buys 10 crayons at the store.
+4 How many apples does Annie have in all?	num2 num3 +	1 2 3
+1 Joyce has num2 eggs.
+2 Marie gives Joyce num3 more.
+3 Later, Joyce buys 13 erasers at the store.
+4 How many eggs does Joyce have in all?	num2 num3 +	1 2 3
+1 There are num3 bananas in a pile on the desk.
+2 Each banana comes in a package of 13. num1 bananas are added to the pile.
+3 How many bananas are there in the pile?	num3 num1 +	1 2
+1 Arthur has 6 cards.
+2 Aaron has with num2 cards.
+3 Aaron finds another num3.
+4 How many cards does Aaron end with?	num2 num3 +	1 2 3
+1 Carolyn starts with num2 marbles and 6 oranges.
+2 She shares num1 with Diana.
+3 How many marbles does Carolyn end with?	num2 num1 -	1 2
+1 Bruce has num2 eggs.
+2 Kimberly has 17 eggs.
+3 He loses num3.
+4 How many eggs will Bruce have?	num2 num3 -	1 2 3
+1 Craig has num1 apples.
+2 Judy has 11 apples.
+3 He shares num3 with Eugene.
+4 How many apples will Craig have?	num1 num3 -	1 2 3
+1 Gloria has num1 boxes of tickets.
+2 Each box holds num3 tickets and there are 10 boxes in a case.
+3 How many tickets does Gloria have?	num1 num3 *	1 2
+1 Jacqueline has num1 boxes of erasers.
+2 Each box holds num2 erasers and there are 9 boxes in a case.
+3 How many erasers does Jacqueline have?	num1 num2 *	1 2
+1 Ruby has num3 candies and 6 bananas.
+2 If she shares the candies among num2 friends, how many candies does each friend get?	num3 num2 /	1
+1 Scott has num3 oranges that must be put away in boxes.
+2 Terry comes to help and brings 11 cookies to share with Scott.
+3 If there are num2 boxes, how many oranges must go in each box?	num3 num2 /	1 2
+1 Joyce has num2 bananas that must be put away in boxes.
+2 Fred comes to help and brings 18 cookies to share with Joyce.
+3 If there are num1 boxes, how many bananas must go in each box?	num2 num1 /	1 2
+1 Ernest has num2 bananas that must be put away in boxes.
+2 Julie comes to help and brings 3 cookies to share with Ernest.
+3 If there are num1 boxes, how many bananas must go in each box?	num2 num1 /	1 2
+1 It took Amanda num2 hours to stroll to Kimberly's house at num1 miles per hour.
+2 How far is it between Amanda's house and Kimberly's house?	num2 num1 *	1
+1 It took Amanda numnum3 hours to stroll to Kimberly's house at num3 miles per hour.
+2 How far is it between Amanda's house and Kimberly's house?	num2 num3 *	1
+1 Jose strolled to Jane's house.
+2 It is num2 miles from Jose's house to Jane's house.
+3 It took Jose num3 hours to get there.
+4 How fast did Jose go?	num2 num3 /	1 2 3
+1 Patrick jogged to Aaron's house.
+2 It is numnum1 miles from Patrick's house to Aaron's house.
+3 It took Patrick num1 hours to get there.
+4 How fast did Patrick go?	num2 num1 /	1 2 3
+1 Christine wandered num2 miles at num3 miles per hour.
+2 How long did Christine wander?	num2 num3 /	1
+1 If Benjamin skated num3 kilometers at num1 kilometers per hour, how long was Benjamin skating?	num3 num1 /	1
+1 If Lawrence walked num1 kilometers at num3 kilometers per hour, how long was Lawrence walking?	num1 num3 -	1
+1 A bee has numnum3 legs.
+2 How many legs do num3 bees have?	num2 num3 *	1
+1 Mrs. Hilt bought a yoyo for num1 cents and a whistle for num2 cents.
+2 How much did she spend in all for the two toys?	num1 num2 +	1
+1 Mrs. Hilt reads numnum1 books a day.
+2 How many books does she read in num1 days?	num3 num1 *	1
+1 Mrs. Hilt had num2 cents.
+2 She bought a pencil for num3 cents.
+3 How much money did she have left?	num2 num3 -	1 2
+1 Shelby’s teacher gives out gold stars for great math work.
+2 Yesterday, Shelby earned num2 gold stars.
+3 Today, she earned num3 more.
+4 How many gold  stars did Shelby earn in all?	num2 num3 +	1 2 3
+1 Carson’s teacher gives out gold stars for great math work.
+2 Yesterday, Carson earned num3 gold stars.
+3 Today, he earned num1 more.
+4 How many gold  stars did Carson earn in all?	num3 num1 +	1 2 3
+1 Linda has num2 candies.
+2 Chloe has num3.
+3 How many candies do they have in all?	num2 num3 +	1 2
+1 Last Saturday, Marie sold num1 magazines and num2 newspapers.
+2 What is the total number of reading materials she sold?	num1 num2 +	1
+1 num3 boys went down the slide.
+2 num1 more boys went down the slide.
+3 How many boys went down the slide?	num3 num1 +	1 2
+1 num3 ducks are swimming in a lake.
+2 num1 more ducks come to join them.
+3 How many ducks are swimming in the lake?	num3 num1 +	1 2
+1 Mrs. Snyder made num1 heart cookies.
+2 She made num3 red cookies and the rest are pink.
+3 How many pink cookies did she make?	num1 num3 -	1 2
+1 num1 birds were sitting in a tree.
+2 num3 more birds flew up to the tree.
+3 How many birds were there altogether in the tree?	num1 num3 +	1 2
+1 Robin had num3 pieces of gum.
+2 Her brother gave her some more pieces.
+3 Now Robin has num1 pieces in all.
+4 How many pieces of gum did Robin's  brother give her?	num1 num3 -	1 2 3
+1 Jane has num1 old, brown sheets of drawing paper and num2 old, yellow sheets of drawing paper.
+2 How many pieces of drawing paper does she  have?	num1 num2 +	1
+1 Marcus has num3 baseball cards.
+2 He has num1 more than Carter.
+3 How many baseball cards does Carter have?	num3 num1 -	1 2
+1 Ethan has num1 presents.
+2 Alissa has num2 more than Ethan.
+3 How many presents does Alissa have?	num1 num2 +	1 2
+1 Sarah had some trucks.
+2 She gave num2 to Jeff, and now she has num3 trucks left.
+3 How many trucks did Sarah have to start with?	num2 num3 +	1 2
+1 Each CD rack holds num1 CDs.
+2 A shelf can hold num3 racks.
+3 How many total CDs can fit on the shelf?	num1 num3 *	1 2
+1 Sean has num2 whistles.
+2 He has num3 more whistles that Charles.
+3 How many whistles does Charles have?	num2 num3 -	1 2
+1 Connie has num1 marbles.
+2 Juan has num3 more marbles than Connie.
+3 How many marbles does Juan have?	num1 num3 +	1 2
+1 Megan has num1 seashells.
+2 How many more seashells does she need to find to have num2 seashells in her collection?	num2 num1 -	1
+1 Mrs. Hilt bought an ice cream cone for numnum3 cents.
+2 How much would num3 ice cream cones cost?	num2 num3 *	1
+1 Mrs. Hilt and her sister drove to a concert num2 miles away.
+2 They drove num3 miles and then stopped for gas.
+3 Her sister put 28 gallons of gas in the  car.
+4 How many miles did they have left to drive?	num2 num3 -	1 2 3
+1 Kate has num2 pennies.
+2 John has num3 pennies.
+3 How many more pennies does John have?	num3 num2 -	1 2
+1 There were num2 boys and num3 girls on the playground at recess.
+2 How many children were on the playground at recess?	num2 num3 +	1
+1 There were num2 geese and num3 ducks in the marsh.
+2 How many birds were in the marsh?	num2 num3 +	1
+1 Gary had num2 dollars.
+2 He spent num1 dollars on a pet snake.
+3 How many dollars did Gary have left?	num2 num1 -	1 2
+1 The Ferris wheel in Paradise Park has num3 seats.
+2 Each seat can hold num1 people.
+3 How many people can ride the Ferris wheel at the same time?	num3 num1 *	1 2
+1 There are num1 baskets.
+2 There are num2 apples in each basket.
+3 How many apples are there in all?	num1 num2 *	1 2
+1 Beth has num2 packs of crayons.
+2 Each pack has num1 crayons in it.
+3 She also has 6 extra crayons.
+4 How many crayons does Beth have altogether?	num2 num1 *	1 2 3
+1 Ted has num3 candy bars.
+2 He wants to put them into num2 bags so there are the same number of candy bars in each bag.
+3 How many candy bars  should go in each bag?	num3 num2 /	1 2
+1 My car gets num2 miles per gallon.
+2 How many miles can I drive on num1 gallons of gas?	num2 num1 *	1
+1 Robin has num3 packages of gum.
+2 There are num1 pieces in each package.
+3 How many pieces of gum does Robin have?	num3 num1 *	1 2
+1 There are num3 stickers on a page.
+2 If you have num2 pages of stickers, how many stickers do you have?	num3 num2 *	1
+1 Megan had num1 markers.
+2 Robert gave her num2 more markers.
+3 How many markers does Megan have altogether?	num1 num2 +	1 2
+1 A DVD book holds num1 DVDs.
+2 There are num3 DVDs already in the book.
+3 How many more DVDs can be put in the book?	num1 num3 -	1 2
+1 Iesha has num3 books.
+2 num1 are about school and the rest are about sports.
+3 How many books about sports does Iesha have?	num3 num1 -	1 2
+1 Sean has num2 whistles.
+2 He has num3 more whistles that Charles.
+3 How many whistles does Charles have?	num2 num3 -	1 2
+1 Adam has $num30 to buy an airplane that costs $num2.
+2 How much change will he get?	num3 num2 -	1
+1 The Sumata family took a num2-day vacation by car.
+2 Each day they drove 2num20 miles.
+3 How many total miles did they drive?	num2 num3 *	1 2
+1 The town of Milburg has num1 grown-ups and num2 children.
+2 How many people live in Milburg?	num1 num2 +	1
+1 There were num2 pieces of candy in a jar.
+2 If num3 pieces were red and the rest were blue, how many were blue?	num2 num3 -	1
+1 num3 students were sitting at each table in the lunchroom.
+2 There are num1 tables.
+3 How many students were sitting in the lunchroom?	num3 num1 *	1 2
+1 Mrs. Hilt read num1 books.
+2 Each book had num3 chapters in it.
+3 How many chapters did Mrs. Hilt read?	num1 num3 *	1 2
+1 Brett drove num1 miles every hour.
+2 How many miles would he drive in num3 hours?	num1 num3 *	1
+1 Brian’s car gets numnum1 miles per gallon.
+2 On his last trip, he used num1 gallons of gas.
+3 How many miles did he travel on his last trip?	num3 num1 *	1 2
+1 A chocolate chip cookie recipe calls for num3 cups of chocolate chips.
+2 You want to make num33 recipes for a bake sale.
+3 How many cups of chocolate  chips will be needed to make all the cookie recipes?	num3 num1 *	1 2
+1 numnum2 people are going to the zoo, and there are num2 buses to take people.
+2 How many will go in each bus if the same number go in each one and  all of the people go to the zoo?	num3 num2 /	1
+1 My dog had some bones.
+2 Then, he dug up num3 bones.
+3 Now he has num2 bones.
+4 How many bones did he start with?	num2 num3 -	1 2 3
+1 Cody is num1 years old.
+2 His grandmother is num2 times as old as he is.
+3 How old is Cody’s grandmother?	num1 num2 *	1 2
+1 Mrs. Hilt impressed num2 fans at the basketball game on Friday.
+2 If the fans were seated in equal groups on num3 sets of bleachers, how many  fans were on each set?	num2 num3 /	1
+1 John walks num1 miles to school and Nina walks num2 miles to school.
+2 How much farther does John walk than Nina?	num1 num2 -	1
+1 One pencil weighs num1 grams.
+2 How much do num3 pencils weigh?	num1 num3 *	1
+1 An ice skating rink charges 5 dollars for admission and num30 dollars to rent skates.
+2 Jill can purchase a new pair of skates for num1 dollars.
+3 How many times would she need to go the rink to justify buying the skates rather than renting a pair?	num1 num3 /	1 2
+1 The tallest player on the basketball team is num3 inches tall.
+2 This is num1 inches taller than the shortest player.
+3 How tall is the shortest player , in inches?	num3 num1 -	1 2
+1 Freeport McMoran projects that in 2010 the world grain supply will be num2 metric tons and the supply will be only num1 of the world grain demand.
+2 What will the world grain demand be in 2010?	num2 num1 /	1
+1 Soft drinks are on sale at the grocery store for num3 dollars for a num2 pack.
+2 How much would each can of soft drink cost if purchased individually , in dollars?	num3 num2 /	1
+1 Angela has num2 bottle caps.
+2 She gives num1 to Bruce.
+3 How many bottle caps will Angela have ?	num2 num1 -	1 2
+1 There are num2 blocks in a box.
+2 Joyce takes num3 blocks.
+3 How many are left ?	num2 num3 -	1 2
+1 There are num3 marbles in a box.
+2 Susan takes num2 marbles.
+3 How many are left ?	num3 num2 -	1 2
+1 Steve gives $num1 to Russell.
+2 If Steve started with $num2, how much money does he have left ?	num2 num1 -	1
+1 After buying some oranges for $num3, Gloria has $num2 left.
+2 How much money did Gloria have to begin with ?	num3 num2 +	1
+1 Michelle has $num1 and Katherine has $num3.
+2 How much more does Michelle have than Katherine ?	num1 num3 -	1
+1 Norma has $num2 and Kevin has $num3.
+2 How much more does Norma have than Kevin ?	num2 num3 -	1
+1 After buying some bottle caps for $num2, Diana has $num3 left.
+2 How much money did Diana have to begin with ?	num2 num3 +	1
+1 Jennifer starts with num2 pencils.
+2 She gives num1 to Ruth.
+3 How many pencils does Jennifer end with ?	num2 num1 -	1 2
+1 Judith weighs num3 pounds.
+2 Rebecca weighs num2 pounds.
+3 How much heavier is Judith than Rebecca ?	num3 num2 -	1 2
+1 Russell weighs num1 pounds.
+2 Louise weighs num3 pounds.
+3 How much heavier is Russell than Louise ?	num1 num3 -	1 2
+1 There are num2 oranges in a box.
+2 Ryan takes num1 oranges.
+3 How many are left ?	num2 num1 -	1 2
+1 Doris has num2 eggs.
+2 She shares num3 with Brenda.
+3 How many eggs will Doris have ?	num2 num3 -	1 2
+1 Sean removes num1 bottle caps from a jar.
+2 There were originally num3 bottle caps in the jar.
+3 How many bottle caps are left in the jar ?	num3 num1 -	1 2
+1 Each child has num3 cards.
+2 If there are num1 children, how many cards are there in total ?	num1 num3 *	1
+1 Shawn has num2 boxes of crayons.
+2 Each box holds 1num2 crayons.
+3 How many crayons does Shawn have ?	num2 num1 *	1 2
+1 Each egg costs $num1.
+2 How much do num2 eggs cost ?	num2 num1 *	1
+1 Chris went to the store num2 times last month.
+2 He buys num3 bottle caps each time he goes to the store.
+3 How many bottle caps did Chris buy last month ?	num2 num3 *	1 2
+1 Paul weighs num2 pounds.
+2 Diana weighs num3 pounds.
+3 How much heavier is Paul than Diana ?	num2 num3 -	1 2
+1 Tammy starts with num3 candies.
+2 She gives num1 to Matthew.
+3 How many candies does Tammy end with ?	num3 num1 -	1 2
+1 Jane removes num1 crayons from a jar.
+2 There were originally num3 crayons in the jar.
+3 How many crayons are left in the jar ?	num3 num1 -	1 2
+1 Patricia has num2 candies.
+2 She loses num3.
+3 How many candies will Patricia have ?	num2 num3 -	1 2
+1 There are num3 tickets in a box.
+2 Christina takes num1 tickets.
+3 How many are left ?	num3 num1 -	1 2
+1 Ruth starts with num3 bananas.
+2 She loses num2.
+3 How many bananas does Ruth end with ?	num3 num2 -	1 2
+1 Ashley removes num2 apples from a jar.
+2 There were originally num3 apples in the jar.
+3 How many apples are left in the jar ?	num3 num2 -	1 2
+1 Amanda removes num3 peanuts from a jar.
+2 There were originally num2 peanuts in the jar.
+3 How many peanuts are left in the jar ?	num2 num3 -	1 2
+1 Alice removes num1 peanuts from a jar.
+2 There were originally num2 peanuts in the jar.
+3 How many peanuts are left in the jar ?	num2 num1 -	1 2
+1 Dorothy has num3 tickets.
+2 She finds another num1.
+3 How many tickets does Dorothy have in all ?	num3 num1 +	1 2
+1 Scott has num3 peanuts.
+2 He finds another num1.
+3 How many peanuts does Scott have in all ?	num3 num1 +	1 2
+1 If there are num2 oranges in a box and Rebecca puts num3 more oranges inside, how many oranges are in the box ?	num2 num3 +	1
+1 Lillian has num1 pencils.
+2 Elizabeth has num3 pencils.
+3 If Elizabeth gives all of her pencils to Lillian, how many pencils will Lillian have ?	num1 num3 +	1 2
+1 Each card costs $num1.00.
+2 How much do num1 cards cost ?	num1 num2 *	1
+1 George has num3 boxes of cards.
+2 Each box holds num2 cards.
+3 How many cards does George have ?	num3 num2 *	1 2
+1 Jessica has num2 boxes of pencils.
+2 Each box holds num3 pencils.
+3 How many pencils does Jessica have ?	num2 num3 *	1 2
+1 Kenneth went to the store num2 times last month.
+2 He buys num1 oranges each time he goes to the store.
+3 How many oranges did Kenneth buy last month ?	num2 num1 *	1 2
+1 Susan has num2 boxes of erasers.
+2 Each box holds num1 erasers.
+3 How many erasers does Susan have ?	num2 num1 *	1 2
+1 Beverly has num2 boxes of bananas.
+2 Each box holds num1 bananas.
+3 How many bananas does Beverly have ?	num2 num1 *	1 2
+1 Stephen has num3 bottle caps.
+2 He finds another num2.
+3 How many bottle caps does Stephen have in all ?	num3 num2 +	1 2
+1 Kathleen starts with num1 marbles.
+2 Jean gives Kathleen num2 more.
+3 How many marbles does Kathleen end with ?	num1 num2 +	1 2
+1 If there are num2 Skittles in a box and Cheryl puts num1 more Skittles inside, how many Skittles are in the box ?	num2 num1 +	1
+1 Sandra starts with num1 erasers.
+2 She gets num2 more from Martha.
+3 How many erasers does Sandra end with ?	num1 num2 +	1 2
+1 There are num2 bananas.
+2 num1 bananas more are added.
+3 How many are there total ?	num2 num1 +	1 2
+1 Earl has num3 apples.
+2 Roger gives Earl num1 more.
+3 How many apples does Earl have in all ?	num3 num1 +	1 2
+1 Marvin has num3 eggs.
+2 Jacqueline has num2 eggs.
+3 If Jacqueline gives all of her eggs to Marvin, how many eggs will Marvin have ?	num3 num2 +	1 2
+1 Dorothy has num2 bananas.
+2 Gloria has num3 bananas.
+3 If Gloria gives all of her bananas to Dorothy, how many bananas will Dorothy have ?	num2 num3 +	1 2
+1 Gerald collects num3 candies.
+2 Gerald's father gives Gerald num1 more.
+3 How many candies does Gerald have ?	num3 num1 +	1 2
+1 There are num3 oranges.
+2 num1 oranges more are added.
+3 How many are there total ?	num3 num1 +	1 2
+1 There are num2 crayons in a box.
+2 James takes num1 crayons.
+3 How many are left ?	num2 num1 -	1 2
+1 Brenda removes num1 peanuts from a jar.
+2 There were originally num2 peanuts in the jar.
+3 How many peanuts are left in the jar ?	num2 num1 -	1 2
+1 Janet gives $num3 to Carlos.
+2 If Janet started with $num2, how much money does she have left ?	num2 num3 -	1
+1 Amanda has $num1 and Emily has $num3.
+2 How much more does Amanda have than Emily ?	num1 num3 -	1
+1 Jennifer gives $num3 to Joshua.
+2 If Jennifer started with $num1, how much money does she have left ?	num1 num3 -	1
+1 Jacqueline has $num2 and Shirley has $num3.
+2 How much more does Jacqueline have than Shirley ?	num2 num3 -	1
+1 Lori has $num2 and Wanda has $num1.
+2 How much money do they have together ?	num2 num1 +	1
+1 Julie starts with $num1 and spends $num2 on bottle caps.
+2 How much money does Julie have left ?	num1 num2 -	1
+1 Carolyn has $num1 and Scott has $num3.
+2 How much money do they have together ?	num1 num3 +	1
+1 Albert has $num1 and Amanda has $num2.
+2 How much money do they have together ?	num1 num2 +	1
+1 Lawrence has $num2 and Benjamin has $num3.
+2 How much money do they have together ?	num2 num3 +	1
+1 Sandra has $num1 and Kimberly has $num2.
+2 How much more does Sandra have than Kimberly ?	num1 num2 -	1
+1 Henry gives $num2 to Raymond.
+2 If Henry started with $num1, how much money does he have left ?	num1 num2 -	1
+1 Ernest has $num3 and Aaron has $num1.
+2 How much money do they have together ?	num3 num1 +	1
+1 Robert has $num1 and Paul has $num2.
+2 How much money do they have together ?	num1 num2 +	1
+1 There are num3 bottle caps in each box.
+2 How many bottle caps are in num2 boxes ?	num2 num3 *	1
+1 Each bottle cap costs $num3.
+2 How much do num1 bottle caps cost ?	num1 num3 *	1
+1 Each peanut costs $num3.
+2 How much do num2 peanuts cost ?	num2 num3 *	1
+1 Each sticker costs $num2.
+2 How much do num3 stickers cost ?	num3 num2 *	1
+1 Each child has num3 eggs.
+2 If there are num2 children, how many eggs are there in total ?	num2 num3 *	1
+1 Marvin has num2 boxes of Skittles.
+2 Each box holds num1 Skittles.
+3 How many Skittles does Marvin have ?	num2 num1 *	1 2
+1 There are num2 oranges in each box.
+2 How many oranges are in num3 boxes ?	num3 num2 *	1
+1 Each banana costs $num3.
+2 How much do num2 bananas cost ?	num2 num3 *	1
+1 Each crayon costs $num1.
+2 How much do num2 crayons cost ?	num2 num1 *	1
+1 Maria collects num2 Skittles.
+2 Maria's father gives Maria num1 more.
+3 How many Skittles does Maria have ?	num2 num1 +	1 2
+1 Gloria has num1 cards.
+2 Irene has num3 cards.
+3 If Irene gives all of her cards to Gloria, how many cards will Gloria have ?	num1 num3 +	1 2
+1 There are num3 bottle caps.
+2 num2 bottle caps more are added.
+3 How many are there total ?	num3 num2 +	1 2
+1 Todd has num1 Skittles.
+2 He buys num3 more.
+3 How many Skittles does Todd have in all ?	num1 num3 +	1 2
+1 If there are num2 bottle caps in a box and Katherine puts num1 more bottle caps inside, how many bottle caps are in the box ?	num2 num1 +	1
+1 Christina starts with num3 stickers.
+2 She buys num39 more.
+3 How many stickers does Christina end with ?	num3 num1 +	1 2
+1 Walter starts with num3 Skittles.
+2 He gets num2 more from Kevin.
+3 How many Skittles does Walter end with ?	num3 num2 +	1 2
+1 There are num1 bottle caps.
+2 num3 bottle caps more are added.
+3 How many are there total ?	num1 num3 +	1 2
+1 Ruth went to the store num1 times last month.
+2 She buys num3 apples each time she goes to the store.
+3 How many apples did Ruth buy last month ?	num1 num3 *	1 2
+1 Jerry went to the store num1 times last month.
+2 He buys num2 bananas each time he goes to the store.
+3 How many bananas did Jerry buy last month ?	num1 num2 *	1 2
+1 Henry went to the store num2 times last month.
+2 He buys num1 eggs each time he goes to the store.
+3 How many eggs did Henry buy last month ?	num2 num1 *	1 2
+1 Doris has num2 boxes of tickets.
+2 Each box holds num1 tickets.
+3 How many tickets does Doris have ?	num2 num1 *	1 2
+1 Each crayon costs $num1.
+2 How much do num3 crayons cost ?	num3 num1 *	1
+1 Diane removes num3 eggs from a jar.
+2 There were originally num2 eggs in the jar.
+3 How many eggs are left in the jar ?	num2 num3 -	1 2
+1 Roger starts with num3 bananas.
+2 num2 are eaten by a hippopotamus.
+3 How many bananas does Roger end with ?	num3 num2 -	1 2
+1 Norma weighs num1 pounds.
+2 Brandon weighs num3 pounds.
+3 How much heavier is Norma than Brandon ?	num1 num3 -	1 2
+1 Mark removes num2 pencils from a jar.
+2 There were originally num3 pencils in the jar.
+3 How many pencils are left in the jar ?	num3 num2 -	1 2
+1 Anna removes num2 peanuts from a jar.
+2 There were originally num1 peanuts in the jar.
+3 How many peanuts are left in the jar ?	num1 num2 -	1 2
+1 Sandra has num1 peanuts.
+2 She shares num2 with Clarence.
+3 How many peanuts will Sandra have ?	num1 num2 -	1 2
+1 Wanda weighs num1 pounds.
+2 Jason weighs num3 pounds.
+3 How much heavier is Wanda than Jason ?	num1 num3 -	1 2
+1 Eric starts with $num2 and spends $num1 on candies.
+2 How much money does Eric have left ?	num2 num1 -	1
+1 Todd has $num2 and Marie has $num3.
+2 How much money do they have together ?	num2 num3 +	1
+1 After buying some pencils for $num1, Earl has $num3 left.
+2 How much money did Earl have to begin with ?	num1 num3 +	1
+1 After buying some stickers for $num1, Jason has $num2 left.
+2 How much money did Jason have to begin with ?	num1 num2 +	1
+1 Jonathan has $num3 and Jeremy has $num1.
+2 How much money do they have together ?	num3 num1 +	1
+1 Heather has $num1 and Judy has $num3.
+2 How much money do they have together ?	num1 num3 +	1
+1 After buying some peanuts for $num3, Lisa has $num2 left.
+2 How much money did Lisa have to begin with ?	num3 num2 +	1
+1 After buying some bottle caps for $num1, Shirley has $num3 left.
+2 How much money did Shirley have to begin with ?	num1 num3 +	1
+1 Russell has $num1 and Kenneth has $num2.
+2 How much money do they have together ?	num1 num2 +	1
+1 Virginia has $num1 and Walter has $num2.
+2 How much money do they have together ?	num1 num2 +	1
+1 George has $num1 and Ryan has $num2.
+2 How much more does George have than Ryan ?	num1 num2 -	1
+1 Martin has $num2 and Barbara has $num3.
+2 How much money do they have together ?	num2 num3 +	1
+1 Cheryl has $num2 and Janet has $num3.
+2 How much money do they have together ?	num2 num3 +	1
+1 Barbara gives $num1 to Kathy.
+2 If Barbara started with $num3, how much money does she have left ?	num3 num1 -	1
+1 After buying some erasers for $num2, Tammy has $num2 left.
+2 How much money did Tammy have to begin with ?	num2 num3 +	1
+1 After buying some pencils for $num2, William has $num3 left.
+2 How much money did William have to begin with ?	num2 num3 +	1
+1 Andrew has $num2 and Betty has $num1.
+2 How much more does Andrew have than Betty ?	num2 num1 -	1
+1 Carolyn has $num3 and Jean has $num2.
+2 How much money do they have together ?	num3 num2 +	1
+1 Julie has $num1 and Evelyn has $num2.
+2 How much money do they have together ?	num1 num2 +	1
