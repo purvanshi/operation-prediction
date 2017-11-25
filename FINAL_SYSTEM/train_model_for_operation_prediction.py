@@ -99,7 +99,7 @@ def train_model(train_file, test_file, model_json, model_wts):
     SENT_HIDDEN_SIZE = 100
     QUERY_HIDDEN_SIZE = 100
     BATCH_SIZE = 32
-    EPOCHS = 3
+    EPOCHS = 50
     print('RNN / Embed / Sent / Query = {}, {}, {}, {}'.format(RNN,
                                                                EMBED_HIDDEN_SIZE, SENT_HIDDEN_SIZE, QUERY_HIDDEN_SIZE))
     train = get_stories(
@@ -150,8 +150,8 @@ def train_model(train_file, test_file, model_json, model_wts):
     #              loss='categorical_crossentropy',
     #              metrics=['accuracy'])
     #model.fit([X, Xq], Y, batch_size=BATCH_SIZE, nb_epoch=EPOCHS, validation_split=0.05)
-    
-    model = load_model("my_model.h5")
+    #model.save("mynewmodel.h5")
+    model = load_model("mynewmodel.h5")
 
     index_to_label = {index: label for index, label in enumerate(vocab_answer)}
     loss, acc = model.evaluate([tX, tXq], tY, batch_size=BATCH_SIZE)
