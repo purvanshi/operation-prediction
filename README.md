@@ -2,6 +2,7 @@
 
 ![Word Probem](images/word_problem.png?raw=true "Dicision of a question")
 
+This is the code for the paper http://www.aclweb.org/anthology/I17-3017
 
 Takes a question with two operands as input and predicts the operation between them. This system presents a novel approach to
 solve simple arithmetic word problems.We predict the operation that is to be performed (’-’,’+’,’*’,’/’) through a deep neu-
